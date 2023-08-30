@@ -11,36 +11,66 @@
 </head>
 <body>
 
-    <header class="header__logo">
-        <img src="./img/Logo.png" alt="">
+    <header class="main__header">
+        <img class="Logo" src="./img/Logo.png" alt="">
         <span>Toobolist</span>
     </header>
 
-    <main>
-        <div class="main__container">
-            <div class="main__button">
-                <button class="main__button-add">Add Task</button>
-                <button class="main__button-add">Add Section</button>
-            </div>
-    
-            <div>
-                <ul>
-                    <li>&#x25BC; New Task
-                        <ul>
-                            <li><span>&check;</span>Quarterly Newsletter Editorial</li>
-                        </ul>
-                    </li>
-
-                    <li>&#x25BC; Today</li>
-
-                    <li>&#x25BC; App coming</li>
-                </ul>
-            </div>
-
+    <main class="main__task">
+        <div class="main-button">
+            <button class="button-task">Add Task</button>
+            <button class="button-section">Add Section</button>
         </div>
-       
+
+        <div class="main__task-list">  
+            <ul class="task__list-title"> 
+                <li>&blacktriangledown; New Task
+                    <ul>  
+                        <li class="task__list-item"><span class="checkmark">&checkmark;</span>Quarterly Newsletter <span class="category bg_blue">Editorial</span></li> 
+                    </ul>
+                </li>
+                <li>&blacktriangledown; Today
+                    <ul>  
+                        <li class="task__list-item"><span class="checkmark">&checkmark;</span>Recruiting blog post <span class="category bg_blue">Editorial</span></li> 
+                    </ul>
+
+                    <ul>  
+                        <li class="task__list-item"><span class="checkmark">&checkmark;</span>Mobile app launch <span class="category bg_purple">Q1 Goals</span></li> 
+                    </ul>
+
+                    <ul>  
+                        <li class="task__list-item"><span class="checkmark crossmark">&cross;</span>Interview John H. <span class="category bg_green">Recruiting</span></li> 
+                    </ul>
+
+                    <ul>  
+                        <li class="task__list-item"><span class="checkmark">&checkmark;</span>Summit update to mobile starefronts <span class="category bg_orange">Mobile</span></li> 
+                    </ul>
+
+                </li>
+                <li>&blacktriangledown;Upcoming
+                    <ul>  
+                        <li class="task__list-item"><span class="checkmark crossmark">&cross;</span>Schedule meeting with Alex</li> 
+                    </ul>
+
+                    <ul>  
+                        <li class="task__list-item"><span class="checkmark">&checkmark;</span>Home page refresh <span class="category bg_violet">Web site</span></li> 
+                    </ul>
+
+                    <ul>  
+                        <li class="task__list-item"><span class="checkmark">&checkmark;</span>Onboard New Sales team members <span class="category bg_yellow-green">Sales</span></li> 
+                    </ul>
+
+                    <ul>  
+                        <li class="task__list-item"><span class="checkmark">&checkmark;</span>Review editorial calendar <span class="category bg_blue">Editorial</span></li> 
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
 
     </main>
+
+
 
 </body>
 </html>

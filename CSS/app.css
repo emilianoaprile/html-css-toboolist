@@ -16,40 +16,132 @@ body {
 HEADER 
  */
 
- header {
-    background-color: white;
- }
 
- header img {
+header img {
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 15px;
     vertical-align: middle;
+    margin-bottom: 5px;
  }
 
- .header__logo {
+ .main__header{
     font-size: 38px;
     font-weight: 700;
- }
-
- .main__container {
-    width: 700px;
-    margin: auto;
     background-color: white;
-    margin-top: 30px;
-    padding-left: 40px;
+    margin-bottom: 30px;
  }
 
- .main__button {
-    padding-top: 15px;
-    padding-bottom: 15px;
+ /*
+ MAIN CARD 
+  */
+
+ .main__task {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: white;
+    padding-left: 35px;
+    margin-bottom: 10px;
+ }
+
+ .main-button {
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-bottom: 2px solid #F7F8F9;
+    margin-bottom: 30px;
  }
 
- .main__button-add {
-    padding: 5px;
+ .button-task, .button-section {
+    padding: 10px;
+    border-radius: 10px;
  }
 
- ul, li, menu {
+ .button-task {
+    background-color: #47ADF2;
+    margin-right: 3px;
+    border-style: hidden;
+    color: white;
+ }
+
+ .button-section {
+    border: 1px solid lightgrey;
+    color: lightgrey;
+    background-color: white;
+ }
+
+ /*
+ TASK 
+  */
+
+ul, li, menu{
     list-style: none;
  }
+
+ .task__list-title {
+   font-size: 25px;
+   font-weight: 700;
+ }
+
+ .task__list-item {
+   font-size: 18px;
+   font-weight: 400;
+   color: #696D74;
+   padding-top: 10px;
+   padding-bottom: 25px;
+ }
+
+ .checkmark {
+   width: 15px;
+   height: 15px;
+   border: 1px solid green;
+   margin-right: 8px;
+   color: green;
+   border-radius: 50%;
+   padding: 2px;
+ }
+
+ .category {
+   font-size: 12px;
+   color: white;
+   padding: 5px 12px;
+   border-radius: 8px;
+ }
+
+ .bg_blue {
+   background-color: #47ADF2;
+ }
+
+ .crossmark {
+   color: red;
+   border-color: red;
+ }
+
+ .bg_purple {
+   background-color: #9B73E5;
+ }
+
+ .bg_green {
+   background-color: #64C0A8;
+ }
+
+ .bg_orange {
+   background-color: #F29D33;
+ }
+
+ .bg_violet {
+   background-color: #D963A0;
+ }
+
+ .bg_yellow-green {
+   background-color: #B0C825;
+ }
+
+
+ 
+
+ 
+ 
+
+
+
+ 
