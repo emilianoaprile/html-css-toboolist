@@ -37,6 +37,7 @@ HEADER
     margin: auto;
     background-color: white;
     margin-top: 30px;
+    padding-left: 40px;
  }
 
  .main__button {
@@ -45,3 +46,10 @@ HEADER
     border-bottom: 2px solid #F7F8F9;
  }
 
+ .main__button-add {
+    padding: 5px;
+ }
+
+ ul, li, menu {
+    list-style: none;
+ }
