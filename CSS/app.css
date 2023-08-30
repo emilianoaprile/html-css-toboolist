@@ -32,3 +32,16 @@ HEADER
     font-weight: 700;
  }
 
+ .main__container {
+    width: 700px;
+    margin: auto;
+    background-color: white;
+    margin-top: 30px;
+ }
+
+ .main__button {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #F7F8F9;
+ }
+
